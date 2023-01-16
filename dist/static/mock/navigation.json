@@ -1,0 +1,29 @@
+{
+  "menus":[
+    {
+      "id": "nav1",
+      "label": "首頁",
+      "path": "/website"
+    },
+    {
+      "id": "nav2",
+      "label": "企業概況",
+      "path": "/website/company"
+    },
+    {
+      "id": "nav3",
+      "label": "產品與服務",
+      "path": "/website/product"
+    },
+    {
+      "id": "nav4",
+      "label": "品牌聯盟",
+      "path": "/website/alliance"
+    },
+    {
+      "id": "nav5",
+      "label": "關於我們",
+      "path": "/website/about"
+    }
+  ]
+}
