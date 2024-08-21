@@ -2,17 +2,17 @@
   "imgs":[
     {
       "id": "banner1",
-      "path": "/static/img/banner4.jpg",
+      "path": "https://i.imgur.com/E9yX5Ds.jpeg",
       "title": "banner"
     },
     {
       "id": "banner2",
-      "path": "/static/img/banner5.jpg",
+      "path": "https://i.imgur.com/h78MWJk.jpeg",
       "title": "banner"
     },
     {
       "id": "banner3",
-      "path": "/static/img/stone1.jpg",
+      "path": "https://i.imgur.com/KKABFhVh.png",
       "title": "banner"
     }
   ]

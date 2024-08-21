@@ -4,7 +4,14 @@
     <common-main @clickSideMenu="handleSideClick" :title="imgLabel" :menus="sideMenus">
       <div slot="content">
         <contact-us v-if="activeComponentName === 'ContactUs'"></contact-us>
-        <h3 v-else-if="activeComponentName === 'HumanResource'">暂无信息</h3>
+        <h3 v-else-if="activeComponentName === 'HumanResource'">
+          <iframe src="https://www.104.com.tw/company/1a2x6bm83v?jobsource=google&roleJobCat=#joblist" 
+        width="100%" 
+        height="800" 
+        frameborder="0" 
+        scrolling="yes">
+</iframe>
+        </h3>
       </div>
     </common-main>
   </div>
@@ -24,12 +31,12 @@ export default {
   data () {
     return {
       imgPath: '/static/img/home1.jpg',
-      imgLabel: '关于我们',
+      imgLabel: '關於我們',
       sideMenus: [
         {
           id: 'about1',
           key: 'ContactUs',
-          label: '联系我们'
+          label: '聯繫我們'
         },
         {
           id: 'about2',

@@ -7,7 +7,7 @@
             <img :src="item.imgSrc" class="image">
             <div style="padding: 14px;">
               <strong>{{item.label}}</strong>
-              <p>这是详情描述</p>
+              <p>這是詳情描述</p>
             </div>
           </el-card>
         </el-col>

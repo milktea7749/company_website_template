@@ -1,7 +1,7 @@
 <template>
   <el-container id="footer">
     <el-footer height="10rem">
-      COPYRIGHT By Brock © 2022
+      COPYRIGHT By Sam © 2024
     </el-footer>
   </el-container>
 </template>

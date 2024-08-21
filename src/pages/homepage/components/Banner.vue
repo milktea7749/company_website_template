@@ -1,12 +1,12 @@
 <template>
-  <el-carousel id="container" trigger="click" :height="bannerHeight">
+  <el-carousel id="container" trigger="click" :height="bannerHeight" :style="{ marginTop: '60px' }">
     <el-carousel-item v-for="image in images" :key="image.id">
       <div
         class="image"
         :style="{
           background: 'url(' + image.path + ') no-repeat',
           backgroundPosition: 'center',
-          backgroundSize: 'cover'}"
+          backgroundSize: 'contain'}"
           >
       </div>
     </el-carousel-item>

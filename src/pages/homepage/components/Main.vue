@@ -1,16 +1,35 @@
 <template>
   <el-container :class="containerClass">
     <el-main>
-      <h2>爸</h2>
-      <p>这个是样板</p>
-      <p>布局还有文字还有图片什么的都可以修改替换</p>
-      <p>您看看有什么不足的或者哪里要改进的可以提提意见</p>
-      <p>域名（也就是网址）和服务器我看下来，用腾讯的普通点的每年的费用大概1000元上下</p>
-      <p>不过注册域名之后要备案，还要拍照和填材料什么的，整个备案流程大概要1个月，备案后咱们才能使用</p>
-      <h2>切割石材和装饰石材</h2>
-      <p>在采石场选择石块之后，就会被运往意大利的维罗纳进行加工。每一块石材都拥有独特的物理特性。但是直到该石材被切割之后，才能够评估该石块儿的美感和价值。那些具有最佳花纹和图案的石块儿会被挑选并用于签名石产品系列。</p>
-      <p>Antolini采用最新的技术，立足于加工优质精美天然石材行业的前沿。</p>
-      <p>公司将继续通过生产创新方案的产品和探索石材行业可能性新方案的满腔激情来开拓创新、勇往直前。</p>
+      <h2>万十科技股份有限公司</h2>
+
+      <h2>經營理念</h2>
+      <p>「Recode your thinking & Decode in ONCE」</p>
+      <p>公司以整合國際科技人才為目標，同時並積極推動人才跨域轉型，公司與台日多間企業及學校合作，在人才訓練上給予協助合作。</p>
+      <p>透過以「人」為主體，建立產業、官方、學術界緊密的關係。優秀人才的產出銜接合作企業的業務需求、推動企業間的擴大發展進而再尋求優秀人才的協助，成為一個無止盡的正向循環發展，打造不是以技術而以「人」為中心的科技產業。</p>
+
+      <h2>主要商品 / 服務項目</h2>
+      <h3>技術諮詢</h3>
+      <ul>
+        <li>Big Data解決方案</li>
+        <li>IT服務與資料庫管理</li>
+        <li>資訊安全應用</li>
+        <li>委外服務應用</li>
+      </ul>
+
+      <h3>人才訓練</h3>
+      <ul>
+        <li>專業IT教育訓練</li>
+        <li>企業內部培訓</li>
+        <li>產學合作實習訓練</li>
+      </ul>
+
+      <h3>跨國合作</h3>
+      <ul>
+        <li>打造科技人才從訓練到實體就業一條龍完整平台</li>
+        <li>整合國際企業間合作</li>
+      </ul>
+
       <div class="img-box">
         <img src="/static/img/home1.jpg" alt="company-concept">
       </div>
@@ -22,7 +41,7 @@
 export default {
   name: 'HomeMain',
   computed: {
-    containerClass () {
+    containerClass() {
       return this.$ISMOBILE ? '' : 'container'
     }
   }
@@ -30,18 +49,21 @@ export default {
 </script>
 
 <style scoped>
-  .container{
-    padding: 0 6rem;
-  }
-  .el-container p {
-    line-height: 1.5;
-    text-align: justify;
-  }
-  .img-box {
-    padding: 2rem 0;
-  }
-  .img-box img {
-    height: 30rem;
-    width: 100%;
-  }
+.container {
+  padding: 0 6rem;
+}
+
+.el-container p {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.img-box {
+  padding: 2rem 0;
+}
+
+.img-box img {
+  height: 30rem;
+  width: 100%;
+}
 </style>

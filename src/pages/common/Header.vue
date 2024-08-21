@@ -3,8 +3,8 @@
     <el-header class="hidden-xs-only fixed">
       <el-row>
         <el-col :span="6" class="logo-box">
-          <img class="logo" src="@/assets/images/logo.svg" alt="logo">
-          <strong>公司LOGO</strong>
+          <img class="logo" src="https://static.104.com.tw/b_profile/cust_picture/8027/130000000198027/logo.jpg?v=20220905171356" alt="logo">
+          <!-- <strong>公司LOGO</strong> -->
         </el-col>
         <el-col :span="14" :offset="4">
           <el-menu
@@ -96,7 +96,7 @@ export default {
 
 <style scoped>
 .logo {
-  width: 4rem;
+  width: 8rem;
   height: 4rem;
   margin-right: 1rem;
 }
